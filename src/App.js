@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Favorite from './Favorite';
 import Home from './Home';
+import About from './About';
 import './index.css';
 
 class App extends Component {
@@ -96,6 +97,9 @@ class App extends Component {
             <li>
               <Link to="/favorite">Favorite {favoriteCounter}</Link>
             </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
           </ul>
 
           <div className="main">
@@ -112,6 +116,10 @@ class App extends Component {
             <Route
               path="/favorite"
               render={() => <Favorite onSelectArtist={this.onSelectArtist} artists={favorite} />}
+            />
+            <Route
+              path="/about"
+              render={() => <About />}
             />
           </div>
         </div>
