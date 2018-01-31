@@ -2,9 +2,11 @@ import React from 'react';
 import Search from './Search';
 import Artists from './Artists';
 
-const Home = ({ artists, onInputChange, onSearch, onSelectArtist }) => (
+const Home = ({
+  artists, onInputChange, onSearch, onSelectArtist,
+}) => (
   <div>
-    <Search onInputChange={onInputChange} onSearch={onSearch}/> {artists.length > 0 && <Artists artists={artists} onSelectArtist={onSelectArtist}/>
+    <Search onInputChange={onInputChange} onSearch={onSearch} /> {artists.length > 0 && <Artists artists={artists} onSelectArtist={onSelectArtist} />
 }
   </div>
 );

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Favorite from './Favorite';
 import Home from './Home';
 import About from './About';
+import MemberList from './MemberList';
 import './index.css';
 
 class App extends Component {
@@ -100,6 +101,9 @@ class App extends Component {
             <li>
               <Link to="/about">About</Link>
             </li>
+            <li>
+              <Link to="/members">Members</Link>
+            </li>
           </ul>
 
           <div className="main">
@@ -120,6 +124,10 @@ class App extends Component {
             <Route
               path="/about"
               render={() => <About />}
+            />
+            <Route
+              path="/members"
+              render={() => <MemberList />}
             />
           </div>
         </div>
