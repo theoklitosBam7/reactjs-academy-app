@@ -35,12 +35,12 @@ class Member extends Component {
             ? <FaShield />
             : null}
         </h1>
+        <img src={thumbnail} alt="profile picture" />
+        <br />
         {(admin)
           ? <a onClick={() => removeAdmin(email)}><button>Remove Admin</button></a>
           : <a onClick={() => makeAdmin(email)}><button>Make Admin</button></a>
-}
-
-        <img src={thumbnail} alt="profile picture" />
+        }
         <p>
           <a href={`mailto:${email}`}>{email}</a>
         </p>
