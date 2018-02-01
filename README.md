@@ -30,6 +30,10 @@ On Search field write some letters from the name or the genre (e.g. just the let
 
 On Members page you can make or remove admin a user pressing the button.
 
+## Live Vesion
+
+Application's live version is available on [Heroku](https://reactjs-academy-app.herokuapp.com/).
+
 ## License
 
 reactjs-academy-app is available under the MIT license. See the LICENSE file for more info.
