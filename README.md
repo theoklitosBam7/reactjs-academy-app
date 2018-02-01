@@ -24,6 +24,12 @@ and then your local app server at [localhost:3000](http://localhost:3000) with:
 npm run start
 ```
 
+## Using
+
+On Search field write some letters from the name or the genre (e.g. just the letter "a", or "iron", "heavy" etc.) from the artists in db.json file inside src folder and press the button. You can add to Favorite by clicking the heart.
+
+On Members page you can make or remove admin a user pressing the button.
+
 ## License
 
 reactjs-academy-app is available under the MIT license. See the LICENSE file for more info.
