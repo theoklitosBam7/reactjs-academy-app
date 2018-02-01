@@ -26,4 +26,4 @@ npm run start
 
 ## License
 
-flickering-both-maggot is available under the MIT license. See the LICENSE file for more info.
+reactjs-academy-app is available under the MIT license. See the LICENSE file for more info.
