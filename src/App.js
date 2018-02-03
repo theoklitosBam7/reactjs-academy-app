@@ -30,8 +30,8 @@ class App extends Component {
     this.setState({ searchText: event.target.value });
   }
 
-  onSearch(event) {
-    fetch(`http://localhost:3001/artists?q=${this.state.searchText}`)
+  onSearch() {
+    fetch(`https://my-json-server.typicode.com/theoklitosBam7/json-data/artists?q=${this.state.searchText}`)
       .then(response => response.json())
       .then((artists) => {
         this.setState({
