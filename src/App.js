@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import fetch from 'isomorphic-fetch';
 import Favorite from './Favorite';
 import Home from './Home';
 import About from './About';
