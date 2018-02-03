@@ -12,16 +12,10 @@ npm install
 
 ## Running
 
-First run json-server with:
+Run your local app server at [localhost:3000](http://localhost:3000) with:
 
 ```sh
-npm run server
-```
-
-and then your local app server at [localhost:3000](http://localhost:3000) with:
-
-```sh
-npm run start
+npm start
 ```
 
 ## Using
